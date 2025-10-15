@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trimurti Bakery - Fresh Cakes, Milk Products & Snacks</title>
+  <meta name="description" content="Trimurti Bakery offers delicious cakes, fresh milk products, pastries, cookies, and snacks. Discover our Chocolate Cake, Black Forest Cake, Butter Cookies, and more.">
+  <meta name="keywords" content="Trimurti Bakery, Cakes, Milk Products, Pastries, Cookies, Chocolate Cake, Black Forest Cake, Bakery Items">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      color: #333;
+      min-height: 100vh;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #c0392b;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+    .card i {
+      font-size: 3rem;
+      color: #e67e22;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #c0392b;
+    }
+    .sub-list {
+      list-style: none;
+      padding: 0;
+    }
+    .sub-list li {
+      margin: 6px 0;
+      font-size: 1rem;
+      padding: 8px;
+      background: #fdf2e9;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .sub-list li:hover {
+      background: #fce5d6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-bread-slice"></i> Trimurti Bakery</h1>
+    <p>Delicious cakes, fresh dairy products, and crunchy snacks made with love.</p>
+
+    <div class="grid">
+      <!-- Milk Products -->
+      <div class="card">
+        <i class="fas fa-glass-whiskey"></i>
+        <h2>Milk Products</h2>
+        <ul class="sub-list">
+          <li><i class="fas fa-tint"></i> Milk</li>
+          <li><i class="fas fa-cheese"></i> Paneer</li>
+          <li><i class="fas fa-pizza-slice"></i> Cheese</li>
+          <li><i class="fas fa-ice-cream"></i> Butter</li>
+          <li><i class="fas fa-burn"></i> Ghee</li>
+        </ul>
+      </div>
+
+      <!-- Cakes -->
+      <div class="card">
+        <i class="fas fa-birthday-cake"></i>
+        <h2>Cakes</h2>
+        <ul class="sub-list">
+          <li><i class="fas fa-cookie-bite"></i> Chocolate Cake</li>
+          <li><i class="fas fa-tree"></i> Black Forest Cake</li>
+          <li><i class="fas fa-apple-alt"></i> Fruit Cake</li>
+          <li><i class="fas fa-heart"></i> Red Velvet Cake</li>
+          <li><i class="fas fa-cheese"></i> Cheesecake</li>
+        </ul>
+      </div>
+
+      <!-- Pastries -->
+      <div class="card">
+        <i class="fas fa-croissant"></i>
+        <h2>Pastries</h2>
+        <ul class="sub-list">
+          <li><i class="fas fa-apple-alt"></i> Puff Pastry</li>
+          <li><i class="fas fa-ice-cream"></i> Cream Roll</li>
+          <li><i class="fas fa-cookie"></i> Chocolate Pastry</li>
+        </ul>
+      </div>
+
+      <!-- Cookies & Snacks -->
+      <div class="card">
+        <i class="fas fa-cookie"></i>
+        <h2>Cookies & Snacks</h2>
+        <ul class="sub-list">
+          <li><i class="fas fa-cookie"></i> Butter Cookies</li>
+          <li><i class="fas fa-cookie-bite"></i> Chocolate Chip Cookies</li>
+          <li><i class="fas fa-seedling"></i> Dry Fruit Biscuits</li>
+          <li><i class="fas fa-bread-slice"></i> Khari</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

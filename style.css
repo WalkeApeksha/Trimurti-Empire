@@ -1,0 +1,201 @@
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Roboto";
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: "Trimurti.jpg";
+}
+/* Gallery container */
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+/* Each card */
+.card {
+  width: 250px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  gap:15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+}
+
+/* Image style */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* animation for zoom */
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px); /* card lifts up */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* bigger shadow */
+}
+
+.card:hover img {
+  transform: scale(1.1); /* zoom image */
+}
+
+/* Titles */
+.card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+/* Description */
+.card p {
+  font-size: 14px;
+  color: #555;
+  padding: 0 10px 15px;
+}
+.photo-gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gallery-columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between photos in a column */
+}
+
+.gallery-column img {
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-column img:hover {
+  transform: scale(1.05);
+}
+.photo-gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gallery-columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between photos in a column */
+}
+
+.gallery-column img {
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-column img:hover {
+  transform: scale(1.05);
+}
+.photo-gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.gallery-columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between photos in a column */
+}
+
+.gallery-column img {
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+/* Header */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin:0px 10px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Footer */
+footer {
+  background:pink;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  padding: 15px;
+  flex-basis: 100%;
+  list-style: none;
+
+}
+section ul li{
+  list-style: none;
+}
+footer ul li{
+  list-style:none;
+}
+/* PRODUCTS */
+.grid { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+  margin-top: 24px; 
+}
